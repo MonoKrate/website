@@ -1,0 +1,187 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+nav {
+    border-bottom: solid 1px;
+    border-color: white;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+/* remove later */
+h1{
+    color: white;
+}
+
+h2 {
+    color: #D9B08C;
+}
+
+
+.main-landing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-color: white;
+    margin: 0 5rem 0;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-image {
+    width: 720px;
+    height: auto;
+}
+
+button {
+    margin: 0 5rem 0 5rem;
+    padding: 0.5rem;
+    background-color: #cda827;
+}
+
+
+/* OUR PHILOSOPHY SECTION */
+.our-philosophy {
+    background-color: white;
+}
+
+.philosophy-content {
+    display: flex;
+}
+
+.philosophy-icon {
+    width: 100%;
+    min-width: 500px;
+    max-width: 700px;
+    height: auto;
+    order: 1
+}
+
+.philosophy-text-container {
+    order: 2;
+    display: flex;
+}
+
+.philosophy-text-paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* WHAT WE OFFER SECTION */
+.what-we-offer {
+    color: white;
+}
+
+.what-we-do {
+    margin-right: 3rem;
+}
+
+.what-we-offer-comparison {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* LETS CONNECT SECTION */
+.lets-connect {
+    background-color: white;
+}
+
+.lets-connect-content {
+    display: flex;
+}
+
+.lets-connect-text-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 3rem;
+    justify-content: center;
+    order: 2;
+
+}
+.calendly-widget-container {
+    width: 560px;
+    height: 850px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5rem;
+}
+
+.calendly-inline-widget {
+    width: 550px;
+    height: 750px;
+}
+
+
+
+
+/* QUESTIONS SECTION */
+.questions {
+    color: white;
+}
+
+footer {
+    padding: 4rem;
+    border: solid 1px;
+    border-color: white;
+}
+
+
+
+/* RESPONSIVE ADAPTATION*/
+
+@media (max-width: 82rem) {
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-image {
+        min-width: 200px;
+    }
+
+
+    /* .calendly-widget-container {
+        order: 2;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .calendly-inline-widget {
+        max-width: 350px;
+    } */
+}
