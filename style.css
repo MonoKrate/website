@@ -9,19 +9,14 @@ html {
 }
 
 body {
+    background-color: #0f0e0e;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
-body {
-    background-color: #0f0e0e;
-    width: 100%;
-}
 
-nav {
-    border-bottom: solid 1px;
-    border-color: white;
-}
+
 
 h1{
     color: white;
@@ -53,6 +48,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding: 2rem 0 2rem;
+    margin: 2rem 0 2rem;
 }
 
 .content {
@@ -67,11 +63,12 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     border-color: white;
-    margin: 0;
+    margin-top: 3rem;
     padding:0;
-    height: 75vh;
+    height: 85vh;
     
 }
+
 
 .title-text {
     display: flex;
@@ -99,6 +96,17 @@ button a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+
+button:hover {
+    background-color: black;
+    border: 2px solid #cda827;
+
+}
+
+button:hover a {
+    color: white;
 }
 
 /* OUR PHILOSOPHY SECTION */
@@ -193,6 +201,14 @@ footer {
     .content {
         display: flex;
         flex-direction: column;
+    }
+
+    .title-text {
+        margin-top: 7rem;
+    }
+    
+    .title-image {
+        margin: 2rem 0 2rem;
     }
 
     .philosophy-icon {
